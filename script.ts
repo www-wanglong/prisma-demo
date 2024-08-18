@@ -15,9 +15,14 @@ main().then(async () => {
       where: {
         posts: {
           some: {
-            published: true
+            published: true,
+            title: {
+              in: []
+            }
           },
+
         },
+
       },
       orderBy: {
         id: 'desc',
