@@ -1,0 +1,18 @@
+{
+  "name": "prisma-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:www-wanglong/prisma-demo.git",
+  "author": "王龙 <18392700041@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx ts-node script.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "5.18.0",
+    "@types/node": "^22.4.0",
+    "prisma": "^5.18.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
