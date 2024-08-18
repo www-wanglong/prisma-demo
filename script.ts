@@ -14,7 +14,7 @@ main().then(async () => {
     const findUser = await prisma.user.findFirst({
       where: {
         posts: {
-          some: {
+          every: {
             published: true,
             title: {
               in: []
